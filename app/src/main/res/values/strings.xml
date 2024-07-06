@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SQL</string>
+    <string name="confirmer">confirmer</string>
+    <string name="question">Question :</string>
+</resources>

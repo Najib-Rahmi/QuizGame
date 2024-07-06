@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/jouer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/play"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:text="PLAY"
+        android:textSize="90sp"
+        android:textStyle="bold"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/about"
+        android:layout_marginTop="1000dp"
+        android:textSize="100dp"
+        android:layout_below="@+id/jouer"
+        android:background="#01579B"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text=" Score : "
+        android:textSize="90sp"
+        android:layout_centerInParent="true"
+        ></TextView>
+
+</RelativeLayout>
